@@ -24,8 +24,8 @@
         public override string ToString() {
             return Name 
                 + ", $" + 
-                Price.ToString("F2") + " O valor total em estoque é de: " 
-                + valueAmount();
+                Price.ToString("F2") + " Temos em estoque: " 
+                + Amount + " O valor total em estoque é de: " + valueAmount();
         }
     }
 

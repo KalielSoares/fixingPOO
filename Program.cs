@@ -1,4 +1,5 @@
-﻿namespace fixingPOO {
+﻿
+namespace fixingPOO {
     class Program{
 
         static void Main(string[] args ){
@@ -38,7 +39,6 @@
                 Console.WriteLine("Deseja fazer alguma alteração no Produto?");
                 answer = char.Parse(Console.ReadLine());
             }
-
 
 
             Console.WriteLine(A);
