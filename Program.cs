@@ -4,7 +4,7 @@
         static void Main(string[] args ){
             Produto A;
 
-            A = new Produto();
+            A = new Produto(); 
 
             Console.WriteLine("Cadastro de Produto");
             Console.WriteLine("Qual o nome do produto?");
