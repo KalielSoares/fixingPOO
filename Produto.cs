@@ -4,7 +4,7 @@
         public double Price;
         public int Amount;
         
-
+        
         public void addProdut(int a) {
             Amount += a; 
         }
