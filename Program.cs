@@ -3,7 +3,8 @@ namespace fixingPOO {
     class Program{
 
         static void Main(string[] args ){
-            Produto A;
+
+            /*Produto A;
 
             A = new Produto(); 
 
@@ -42,6 +43,26 @@ namespace fixingPOO {
 
 
             Console.WriteLine(A);
+            */
+
+            Worker A;
+
+            A = new Worker();
+
+            Console.WriteLine("Qual o nome do funcionário?");
+            A.name = Console.ReadLine();
+            Console.WriteLine("E o salario dele?");
+            A.payment = double.Parse(Console.ReadLine());
+            Console.WriteLine("Quanto de imposto?");
+            A.tax = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Funcionário: " + A);
+
+            Console.WriteLine("Digite a porcentagem para aumentar o salario:");
+            int percentage = int.Parse(Console.ReadLine());
+            A.reajustment(percentage);
+
+            Console.WriteLine($"Funcionário: " + A);
 
         }
        
